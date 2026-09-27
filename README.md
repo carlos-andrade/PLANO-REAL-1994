@@ -12,6 +12,21 @@ O projeto adota o modelo de formatação documental já validado em outros proje
 
 Todos os novos documentos devem seguir esse padrão, incluindo cabeçalho com **Arquivo**, **Data de criação**, **Projeto**, **Contexto**, **Finalidade**, **Caminho** e **Repositório**, além de hierarquia Markdown, seções, versionamento, status e fontes.
 
+## Organização por temas
+
+**Regra permanente:** sempre que surgir um tema novo neste projeto, deve ser criada uma **nova pasta específica para esse tema**, e os arquivos correspondentes devem ser armazenados nela.
+
+A separação temática deve ser mantida para evitar mistura de assuntos e facilitar:
+
+- entendimento;
+- localização dos arquivos;
+- pesquisa;
+- auditoria;
+- versionamento;
+- continuidade do projeto.
+
+Quanto mais o projeto crescer, maior deve ser o nível de organização estrutural.
+
 ## Prompts
 
 Todos os prompts do projeto devem ser mantidos na pasta **PROMPTS/**, com nomes e objetivos claramente identificados.
@@ -30,12 +45,19 @@ O segundo prompt orienta uma investigação quantitativa e documental sobre a pe
 
 - **MODELO/** — modelo oficial de formatação documental do projeto.
 - **PROMPTS/** — prompts oficiais e versões controladas.
-- **pesquisa/** — fontes, dados e documentação histórica.
-- **documentacao/** — textos analíticos e materiais de referência.
+- **pastas temáticas/** — cada novo tema deve possuir sua própria pasta.
+- **pesquisa/** — fontes, dados e documentação histórica, quando aplicável ao tema.
+- **documentacao/** — textos analíticos e materiais de referência, quando aplicável ao tema.
 
 ## Regra de trabalho
 
-Todo conteúdo produzido para este projeto deve ser salvo neste repositório, preservando histórico, rastreabilidade e organização por finalidade. Novos prompts devem ser criados e mantidos em **PROMPTS/**. Novos documentos devem seguir o modelo em **MODELO/**.
+Todo conteúdo produzido para este projeto deve ser salvo neste repositório, preservando histórico, rastreabilidade e organização por finalidade.
+
+Novos prompts devem ser criados e mantidos em **PROMPTS/**.
+
+Novos documentos devem seguir o modelo em **MODELO/**.
+
+**Todo tema novo deve ser organizado em uma nova pasta própria.**
 
 ## Repositório
 
