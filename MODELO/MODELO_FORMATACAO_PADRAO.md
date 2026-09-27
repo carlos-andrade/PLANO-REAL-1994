@@ -41,7 +41,37 @@ Utilizar Markdown de forma consistente:
 
 ---
 
-## 3. Organização analítica
+## 3. Organização por temas
+
+**Regra permanente:** sempre que surgir um tema novo no projeto, deve ser criada uma **nova pasta específica para esse tema**, antes de armazenar seus arquivos.
+
+A pasta temática deve:
+
+- ter nome claro, objetivo e consistente;
+- conter os arquivos relacionados exclusivamente àquele tema;
+- preservar a separação entre temas diferentes;
+- evitar concentração de assuntos distintos na mesma pasta;
+- facilitar localização, leitura, auditoria e continuidade da pesquisa.
+
+Quanto maior o projeto, maior deve ser a preocupação com organização hierárquica e separação temática.
+
+Exemplo:
+
+```text
+PLANO-REAL-1994/
+├── MODELO/
+├── PROMPTS/
+├── TEMA_NOVO_01/
+│   ├── documento.md
+│   └── fontes.md
+├── TEMA_NOVO_02/
+│   └── documento.md
+└── README.md
+```
+
+---
+
+## 4. Organização analítica
 
 Quando aplicável, os documentos devem separar claramente:
 
@@ -58,7 +88,7 @@ Não apresentar interpretação como fato.
 
 ---
 
-## 4. Controle documental
+## 5. Controle documental
 
 Quando houver evolução do material, registrar:
 
@@ -72,7 +102,7 @@ Quando houver evolução do material, registrar:
 
 ---
 
-## 5. Encerramento
+## 6. Encerramento
 
 Documentos analíticos devem, quando pertinente, terminar com:
 
@@ -86,8 +116,12 @@ Relacionar as fontes utilizadas, priorizando fontes primárias e institucionais.
 
 ---
 
-## 6. Regra permanente do projeto
+## 7. Regra permanente do projeto
 
 Este arquivo constitui o **modelo de formatação padrão do projeto PLANO REAL 1994**.
 
-Todo novo material produzido para o projeto deve seguir este padrão, salvo quando houver uma necessidade documental específica que justifique outro formato.
+Todo novo material produzido para o projeto deve seguir este padrão.
+
+**Regra estrutural adicional:** todo tema novo deve possuir sua própria pasta. Arquivos de temas diferentes não devem ser misturados na mesma pasta quando a separação temática for aplicável.
+
+A organização do repositório deve priorizar clareza, rastreabilidade, entendimento e manutenção futura.
