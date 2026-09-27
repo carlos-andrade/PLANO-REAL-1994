@@ -4,6 +4,14 @@
 
 Repositório dedicado à pesquisa, documentação e desenvolvimento de conteúdo sobre o Plano Real de 1994, sua origem, implementação, mecanismos econômicos, contexto histórico e efeitos no Brasil.
 
+## Modelo de formatação
+
+O projeto adota o modelo de formatação documental já validado em outros projetos. O modelo oficial está em:
+
+**MODELO/MODELO_FORMATACAO_PADRAO.md**
+
+Todos os novos documentos devem seguir esse padrão, incluindo cabeçalho com **Arquivo**, **Data de criação**, **Projeto**, **Contexto**, **Finalidade**, **Caminho** e **Repositório**, além de hierarquia Markdown, seções, versionamento, status e fontes.
+
 ## Prompts
 
 Todos os prompts do projeto devem ser mantidos na pasta **PROMPTS/**, com nomes e objetivos claramente identificados.
@@ -20,13 +28,14 @@ O segundo prompt orienta uma investigação quantitativa e documental sobre a pe
 
 ## Organização
 
+- **MODELO/** — modelo oficial de formatação documental do projeto.
 - **PROMPTS/** — prompts oficiais e versões controladas.
 - **pesquisa/** — fontes, dados e documentação histórica.
 - **documentacao/** — textos analíticos e materiais de referência.
 
 ## Regra de trabalho
 
-Todo conteúdo produzido para este projeto deve ser salvo neste repositório, preservando histórico, rastreabilidade e organização por finalidade. Novos prompts devem ser criados e mantidos em **PROMPTS/**.
+Todo conteúdo produzido para este projeto deve ser salvo neste repositório, preservando histórico, rastreabilidade e organização por finalidade. Novos prompts devem ser criados e mantidos em **PROMPTS/**. Novos documentos devem seguir o modelo em **MODELO/**.
 
 ## Repositório
 
